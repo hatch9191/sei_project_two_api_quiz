@@ -1,4 +1,67 @@
+@import '~bulma/bulma.sass';
 
+// HEADER
+
+.header {
+  background-color: #fafafa;
+  .hero-head {
+    margin: 20px auto;
+  }
+}
+
+
+// LANDING PAGE
+
+.hero-body {
+  // background-image: url('https://i.pinimg.com/originals/28/af/96/28af967f17f8d7cfd8227dd7ad15abe5.jpg');
+  // background-image: url('https://st4.depositphotos.com/2402073/28992/v/950/depositphotos_289920640-stock-illustration-hand-draw-cinema-doodle-background.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+  padding-top: 0rem;
+  
+  // height: ;
+  .container {
+    margin: auto 30px;
+  }
+}
+
+.landing-page-text {
+  .box {
+    text-align: center;
+  }
+}
+
+// GAME PAGE
+
+.input {
+  width: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+// QUESTION CARD
+
+form {
+  .container {
+    padding: 20px auto;
+  }
+}
+
+// BUTTONS
+
+.button {
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+// PROGRESS BAR
+
+.progress {
+  margin-top: 10px;
+}
 
 // LOADING SPINNER
 
@@ -19,4 +82,13 @@
       height: 80px;
       width: 80px;
   }
+}
+
+// FOOTER
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 3rem;
 }
