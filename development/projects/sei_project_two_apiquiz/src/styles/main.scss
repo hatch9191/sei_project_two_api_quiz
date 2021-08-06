@@ -1,57 +1,86 @@
 @import '~bulma/bulma.sass';
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lobster&display=swap');
+
+body {
+  font-family: 'Arvo', serif;
+}
 
 // HEADER
 
 .header {
   background-color: #fafafa;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
   .hero-head {
-    margin: 20px auto;
+    margin: 40px auto;
   }
 }
-
+.low {
+  color: red;
+}
 
 // LANDING PAGE
 
-.hero-body {
-  // background-image: url('https://i.pinimg.com/originals/28/af/96/28af967f17f8d7cfd8227dd7ad15abe5.jpg');
-  // background-image: url('https://st4.depositphotos.com/2402073/28992/v/950/depositphotos_289920640-stock-illustration-hand-draw-cinema-doodle-background.jpg');
-  background-size: cover;
+.landing-page {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  margin: auto;
+  background-image: url('https://image.freepik.com/free-vector/cinema-sketch-collection-hand-drawn-illustrations-movie-film-elements-sketch-style-posters-banners-flyers-advertising-billboards-3d-glasses-popcorn-movie-tickets_106796-219.jpg');
+  background-size: contain;
   background-repeat: repeat-y;
   background-position: center;
-  padding-top: 0rem;
-  
-  // height: ;
+  .landing-page-text {
+    .box {
+      text-align: center;
+    }
+  }
   .container {
-    margin: auto 30px;
+    margin-bottom: 100px;
   }
-}
-
-.landing-page-text {
-  .box {
-    text-align: center;
-  }
-}
-
-// GAME PAGE
-
-.input {
-  width: 90%;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
 }
 
 // QUESTION CARD
 
+.input {
+  width: 100%;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
 form {
-  .container {
+  max-width: 900px;
+  margin: 0 auto;
+  .main {
     padding: 20px auto;
   }
 }
 
+.level {
+  span {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+}
+
+.control {
+  margin-top: 10px;
+}
+
+.notification {
+  margin: 5px;
+}
+
 // BUTTONS
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  .button {
+    margin-top: 5px;
+    width: 150px;
+  }
+}
 
 .button {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
@@ -60,14 +89,15 @@ form {
 // PROGRESS BAR
 
 .progress {
-  margin-top: 10px;
+  margin: 15px 15px 15px 0px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
 }
 
 // LOADING SPINNER
 
 .loader-wrapper {
-  position: absolute;
-  top: 200px;
+  position: relative;
+  top: 10px;
   left: 0;
   height: 100%;
   width: 100%;
@@ -78,6 +108,7 @@ form {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  z-index: 2;
   .loader {
       height: 80px;
       width: 80px;
@@ -91,4 +122,12 @@ form {
   bottom: 0;
   width: 100%;
   padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 754px) {
+
+  .score, .lives {
+    margin: auto;
+  }
+
 }
