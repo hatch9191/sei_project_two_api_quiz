@@ -13,7 +13,7 @@
 
 ## Project Overview
 
-This 2-day sprint-project was my first chance to work with a partner on a project as well as my first experience of using a public API and building a frontend in React. Vanessa and I found a great public API to use and we pair-coded a simple but effective Movie Quiz.
+This 2-day sprint-project was my first chance to work with a partner on an engineering project as well as my first experience of using a public API and building a frontend in React. Vanessa and I found a great public API to use and we pair-coded a simple but effective Movie Quiz.
 
 Be warned, even the most ardant film buffs out there are going to find some of these questions difficult. Good luck!
 
