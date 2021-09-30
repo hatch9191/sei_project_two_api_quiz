@@ -35,7 +35,7 @@ You can view the deployed project [HERE](https://bit.ly/3l23Mbx).
 - Include wireframes for the design of the app.
 - Be deployed online and accessible to the public.
 
-## Technologies Used
+## Technologies Used
 
 ### Frontend
 
