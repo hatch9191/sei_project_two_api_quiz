@@ -145,3 +145,5 @@ const clues = [
 ## Key Learnings
 
 This project was a great opportunity to use React for the first time. Although we only scratched the surface with its capabilities, it opens up many more avenues for website development than with plain HTML. In particular, I found manipulating elements to be the best feature of React, and although state has its own intricacies, it is a very powerful tool. It also acted as a good chance to experience a range of public APIs to get an idea for how a well designed response object is much easier to manipulate than a bad one and how incredibly important data quality is.
+
+Finally, easily one of the best takeaways from this project was how fun it was to work with someone else on a project and how much we can teach each other through projects like this. Almost every hour that we coded together we were able to help each other gain a deeper understanding of a technology or concept. 
