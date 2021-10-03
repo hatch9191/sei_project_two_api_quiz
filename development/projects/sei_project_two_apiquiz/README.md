@@ -55,6 +55,8 @@ You can view the deployed project [HERE](https://bit.ly/3l23Mbx).
 - Github
 - Firefox Developer Edition
 - Excalidraw (Wireframing)
+- Zoom
+- Slack
 
 ### API 
 
