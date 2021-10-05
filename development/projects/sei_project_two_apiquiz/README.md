@@ -52,7 +52,7 @@ You can view the deployed project [HERE](https://bit.ly/3l23Mbx).
 - npm
 - Insomnia
 - Git
-- Github
+- GitHub
 - Firefox Developer Edition
 - Excalidraw (Wireframing)
 - Zoom
@@ -71,7 +71,7 @@ You can view the deployed project [HERE](https://bit.ly/3l23Mbx).
 
 ### Day 1 - Finding an API, Planning & Initial Functionality
 
-The first major milestone we had to pass before getting started on anything else was finding a suitable API. Although there are thousands freely available to use finding one that worked well and interested us was not such a quick task. We eventually landed on a trivia API which seemed quite promising, however much documentation for it and the responses we were receiving were inconsistently formatted and had numerous spelling errors. To save time on reformatting and vetting each question we decided to ditch it after a few hours. This was a short-term setback but benefitted us in the long-run as we came across the API we ended up using for the project, and this was far better to work with. 
+The first major milestone we had to pass before getting started on anything else was finding a suitable API. Although there are thousands freely available to use, finding one that worked well and interested us was not such a quick task. We eventually landed on a trivia API which seemed quite promising, however much documentation for it and the responses we were receiving were inconsistently formatted and had numerous spelling errors. To save time on reformatting and vetting each question we decided to ditch it after a few hours. This was a short-term setback but benefitted us in the long-run as we came across the API we ended up using for the project, and this was far better to work with. 
 
 Having settled on the API and tested its responses using Insomnia, we felt confident we could come up with a plan so built out a wireframe (see image below) in Excalidraw for all the pages and components on the site. At this point we thought about dividing up the workload into components that each of us could go off and work on separately but as we went on we found it so helpful to learn from each other in the then very new to us topic of React that we ended up pair-coding almost the whole thing together.
 
